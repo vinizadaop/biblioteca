@@ -1,0 +1,33 @@
+# Ambiente virtual
+venv/
+.env/
+
+# Cache e arquivos temporários
+__pycache__/
+*.py[cod]
+*.log
+*.tmp
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Dados de execução do Jupyter
+.ipynb_checkpoints/
+
+# Configurações do VS Code
+.vscode/
+
+# Hugging Face downloads e cache
+~/.cache/
+~/.huggingface/
+
+# Arquivos de modelo e tokenizer locais (caso baixe do Hugging Face)
+*.bin
+*.json
+*.pt
+
+# Arquivos de entrada/saída ou gerados
+*.out
+*.txt
+*.csv
